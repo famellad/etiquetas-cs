@@ -1,8 +1,27 @@
 <html>
     <head>
         <title>Etiqueta CS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        
+        <div class="parent">
+            <div class="left float">
+                <form>
+                    1ra linea: <input type="text" name="line1"><br>
+                    2da linea: <input type="text" name="line2"><br>
+                    3ra linea: <input type="text" name="line3"><br>
+                    Dimensiones: <input type="text" name="dimensions"><br>
+                    <input type="button" value="Descargar">
+                </form>
+            </div>
+            <div class="right float">
+                <canvas id="canvas" width=1632 height=2112></canvas>
+            </div>
+        </div>
+
     </body>
 </html>
